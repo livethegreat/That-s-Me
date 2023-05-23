@@ -1,0 +1,1538 @@
+
+body{
+
+    background-image: url("imagesThatsMe/back.jpg");
+    text-align: center;
+   align-content: center;
+   overflow-x: hidden;
+margin: 0;
+padding: 0;
+
+
+
+}
+
+@font-face {
+    src: url(fonts/Poppins-Bold.ttf);
+    font-family: poppy;
+  }
+
+@font-face {
+  src: url(fonts/Poppins-Medium.ttf);
+  font-family: pops;
+}
+
+@font-face {
+  src: url(fonts/Poppins-Light.ttf);
+  font-family: poppins;
+}
+
+
+
+
+
+@media only screen and (min-width: 200px){
+
+   
+
+    .size{
+        background-color: #e1d199;
+        width: 75%;
+        height: 75%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+      
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.4cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+             
+    }
+
+  
+
+    .title{
+        font-family: poppy;
+        margin-left: 12%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 13%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 3%;
+        line-height: 50%;
+        
+        
+           }
+
+           #link{
+            background-color: white;
+            width: fit-content;
+            margin: auto;
+            text-align: center;
+            border-radius: 5px;
+        
+          
+           }
+
+           
+
+          
+
+           #link p{
+            font-family: pops;
+            border-style: solid;
+            border-width: 5px;
+            border-color: white;
+            border-radius: 5px;
+           }
+
+           .learn{
+            position: relative;
+          
+           width: 55%;
+           padding: 10px;
+           border: #e1d199;
+           border-radius: 5px;
+           background-color: #e1d199;
+           box-shadow: 3px 3px 3px #8a8a8a;
+           font-family: pops;
+           margin-bottom: 40px;
+           cursor: pointer;
+           
+           
+        }
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 300px){
+
+    .learn{
+        position: relative;
+      
+       width: 40%;
+       padding: 10px;
+       border: #e1d199;
+       border-radius: 5px;
+       background-color: #e1d199;
+       box-shadow: 3px 3px 3px #8a8a8a;
+       font-family: pops;
+       margin-bottom: 40px;
+       cursor: pointer;
+       
+       
+    }
+
+}
+
+@media only screen and (max-width: 260px){
+
+    .learn{
+        position: relative;
+      
+       width: 55%;
+       padding: 10px;
+       border: #e1d199;
+       border-radius: 5px;
+       background-color: #e1d199;
+       box-shadow: 3px 3px 3px #8a8a8a;
+       font-family: pops;
+       margin-bottom: 40px;
+       cursor: pointer;
+       
+       
+    }
+
+}
+
+@media only screen and (min-width: 301px){
+
+    .size{
+        background-color: #e1d199;
+        width: 75%;
+        height: 75%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.5cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+       
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 13%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 14%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 6%;
+        line-height: 50%;
+        
+        
+           }
+
+
+           .learn{
+            position: relative;
+         
+           width: 40%;
+           padding: 10px;
+           border: #e1d199;
+           border-radius: 5px;
+           background-color: #e1d199;
+           box-shadow: 3px 3px 3px #8a8a8a;
+           font-family: pops;
+           margin-bottom: 40px;
+           cursor: pointer;
+           
+        }
+ 
+
+    
+}
+
+
+@media only screen and (min-width: 330px){
+
+   .size{
+        background-color: #e1d199;
+        width: 70%;
+        height: 70%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.5cm;
+        
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+   
+
+    
+}
+
+
+
+@media only screen and (min-width: 360px){
+
+    .size{
+        background-color: #e1d199;
+        width: 70%;
+        height: 70%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+       
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.5cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 15%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 16%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 9%;
+        line-height: 50%;
+        
+        
+           }
+
+           .learn{
+            position: relative;
+          
+           width: 30%;
+           padding: 10px;
+           border: #e1d199;
+           border-radius: 5px;
+           background-color: #e1d199;
+           box-shadow: 3px 3px 3px #8a8a8a;
+           font-family: pops;
+           margin-bottom: 30px;
+           
+           
+        }
+
+          
+    
+}
+
+@media only screen and (min-width: 400px){
+
+    .size{
+        background-color: #e1d199;
+        width: 60%;
+        height: 60%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.5cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 20%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 21%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 14%;
+        line-height: 50%;
+        
+        
+           }
+
+           
+    
+}
+
+@media only screen and (min-width: 460px){
+
+    .size{
+        background-color: #e1d199;
+        width: 60%;
+        height: 60%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.5cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 20%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 21%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 15%;
+        line-height: 50%;
+        
+        
+           }
+
+           .learn{
+            position: relative;
+          
+           width: 25%;
+           padding: 10px;
+           border: #e1d199;
+           border-radius: 5px;
+           background-color: #e1d199;
+           box-shadow: 3px 3px 3px #8a8a8a;
+           font-family: pops;
+           margin-bottom: 30px;
+           
+           
+        }
+    
+}
+
+
+
+
+@media only screen and (min-width: 500px){
+
+    .size{
+        background-color: #e1d199;
+        width: 55%;
+        height: 55%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.6cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 23%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 24%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 19%;
+        line-height: 50%;
+        
+        
+           }
+    
+}
+
+
+@media only screen and (min-width: 560px){
+
+    .size{
+        background-color: #e1d199;
+        width: 55%;
+        height: 55%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.6cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 23%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 24%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 19%;
+        line-height: 50%;
+        
+        
+           }
+    
+}
+
+
+@media only screen and (min-width: 600px){
+
+    .size{
+        background-color: #e1d199;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+       
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.6cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+            
+    }
+
+    
+    .title{
+        font-family: poppy;
+        margin-left: 25%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 26%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 22%;
+        line-height: 50%;
+        
+        
+           }
+
+           .learn{
+            position: relative;
+          
+           width: 20%;
+           padding: 10px;
+           border: #e1d199;
+           border-radius: 5px;
+           background-color: #e1d199;
+           box-shadow: 3px 3px 3px #8a8a8a;
+           font-family: pops;
+           margin-bottom: 30px;
+           
+           
+        }
+    
+}
+
+
+@media only screen and (min-width: 660px){
+
+    .size{
+        background-color: #e1d199;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.6cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 25%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 26%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 22%;
+        line-height: 50%;
+        
+        
+           }
+    
+}
+
+
+@media only screen and (min-width: 700px){
+
+    .size{
+        background-color: #e1d199;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.7cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+
+    .learn{
+        position: relative;
+      
+       width: 15%;
+       padding: 10px;
+       border: #e1d199;
+       border-radius: 5px;
+       background-color: #e1d199;
+       box-shadow: 3px 3px 3px #8a8a8a;
+       font-family: pops;
+       margin-bottom: 30px;
+       
+       
+    }
+
+
+    
+}
+
+
+
+
+
+
+@media only screen and (min-width: 760px){
+
+    .size{
+        background-color: #e1d199;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.7cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 25%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 26%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 22%;
+        line-height: 50%;
+        
+        
+           }
+    
+}
+
+
+@media only screen and (min-width: 800px){
+
+    .size{
+        background-color: #e1d199;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.8cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+    .title{
+        font-family: poppy;
+        margin-left: 25%;
+        
+           }
+
+           .title-4{
+
+            font-family: pops;
+        margin-left: 26%;
+        
+        
+           }
+        
+           .listed{
+        
+            font-family: poppins;
+        margin-left: 23%;
+        line-height: 50%;
+        
+        
+           }
+    
+}
+
+@media only screen and (min-width: 860px){
+
+    .size{
+        background-color: #e1d199;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.8cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+        
+        
+          
+    }
+
+   
+
+}
+
+
+@media only screen and (min-width: 900px){
+
+    .size{
+        background-color: #e1d199;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 0.9cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+             
+    }
+
+    
+
+}
+
+
+
+@media only screen and (min-width: 960px){
+
+    .size{
+        background-color: #e1d199;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        margin: auto;
+       margin-top: 20%;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+       
+         
+    }
+
+    .cover{
+        background-color: #e1d199;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+        margin: auto;
+        margin-left: 9%;
+        bottom: 1cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        
+            
+    }
+
+    .learn{
+        position: relative;
+      
+       width: 10%;
+       padding: 10px;
+       border: #e1d199;
+       border-radius: 5px;
+       background-color: #e1d199;
+       box-shadow: 3px 3px 3px #8a8a8a;
+       font-family: pops;
+       margin-bottom: 30px;
+       
+       
+    }
+
+}
+
+@media only screen and (max-width: 999px){
+
+    .protected{
+     display: none;
+    }
+ 
+ }
+
+
+@media only screen and (min-width: 1000px){
+
+    .protect{
+        display: none;
+    }
+    
+    .protected{
+    width: 100%;
+    height: 100%;
+        position: absolute;
+        top: 10%;
+        margin: auto;
+    }
+
+    .all-el{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: auto;
+
+    }
+
+   
+    .size{
+        background-color: #e1d199;
+        width: 80%;
+        position: relative;
+        height: 20%;
+        margin: auto;
+       margin-top: 10%;
+     
+       box-shadow: 3px 3px 3px #8a8a8a;
+       padding: 2%;
+       
+       
+         
+    }
+
+    .cover{
+
+        width: 40%;
+        height: 40%;
+        position: relative;
+        margin: auto;
+        
+        top: 0cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        margin-right: 80%;
+             
+    }
+
+
+
+    .title{
+        position: relative;
+        font-family: poppy;
+        margin-left: 50%;
+       
+        
+        
+           }
+
+           .title-4{
+            position: relative;
+            font-family: pops;
+        margin-left: 51%;
+        
+        
+           }
+        
+           .listed{
+            position: relative;
+            font-family: poppins;
+        margin-left: 48%;
+        line-height: 50%;
+        
+        
+           }
+
+           .learn{
+            position: relative;
+          
+           width: 10%;
+           padding: 10px;
+           border: #e1d199;
+           border-radius: 5px;
+           background-color: #e1d199;
+           box-shadow: 3px 3px 3px #8a8a8a;
+           font-family: pops;
+           margin-bottom: 30px;
+           
+           
+        }
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+    
+
+    .size{
+        background-color: #e1d199;
+        width: 80%;
+        position: relative;
+        height: auto;
+        margin: auto;
+       margin-top: 10%;
+     
+       box-shadow: 3px 3px 3px #8a8a8a;
+       padding: 2%;
+       
+       
+         
+    }
+
+    .cover{
+
+        width: 40%;
+        height: 40%;
+        position: relative;
+        margin: auto;
+        right: auto;
+        top: 0cm;
+        box-shadow: 3px 3px 3px #8a8a8a;
+        margin-right: 80%;
+        
+             
+    }
+
+
+    .title{
+        position: relative;
+        font-family: poppy;
+        margin-left: 50%;
+        
+        
+           }
+
+           .title-4{
+            position: relative;
+            font-family: pops;
+        margin-left: 51%;
+        
+        
+           }
+        
+           .listed{
+            position: relative;
+            font-family: poppins;
+        margin-left: 48%;
+        line-height: 50%;
+        
+        
+           }
+
+           .protect{
+            display: none;
+        }
+        
+        .protected{
+        width: 100%;
+            position: absolute;
+            top: 10%;
+        }
+    
+}
+
+
+
+
+/* Bout That's ME */
+
+@media only screen and (min-width: 200px){
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+ .covered{
+    position: relative;
+   width: 80%;
+    margin: 10%;
+   border-style: solid;
+   border-color: #d7b980;
+  
+ }
+
+
+
+ .covered button{
+    width: 60%;
+    
+    height: auto;
+    max-height: fit-content;
+    
+
+    margin: 5%;
+   
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #8a8a8a;
+    background-color: #e1d199;
+    text-align: right;
+    font-family: pops;
+    line-height: 20%;
+    
+ }
+
+ .covered h3{
+    position: relative;
+    top: 0.3cm;
+ }
+
+
+ 
+ .covered ion-icon{
+    position: relative;
+    font-size: 0.6cm;
+    bottom: 0.5cm;
+  
+ }
+
+ #turned{
+    position: relative;
+    font-size: 0.6cm;
+    bottom: 0cm;
+  
+ }
+
+ .lyrics{
+    
+    position: relative;
+    background-color: white;
+    bottom: 0.4cm;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px #8a8a8a;
+    
+ }
+
+ .lyrics h4{
+
+    position: relative;
+    top: 0.7cm;
+
+ }
+
+ .description{
+    
+    position: relative;
+    background-color: white;
+    bottom: 0.4cm;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px #8a8a8a;
+ }
+
+ .description h4{
+
+    position: relative;
+    top: 0.7cm;
+
+ }
+
+ .mixtape{
+    position: relative;
+   text-align: left;
+    margin: 10%;
+    background-color: white;
+    border-style: solid;
+   border-color: #d7b980;
+   box-shadow: 3px 3px 3px #8a8a8a;
+
+ }
+
+
+ 
+
+}
+
+
+
+@media only screen and (max-width: 499px){
+    .mixtape p{
+        font-family: pops;
+        margin-left: 5%;
+        margin-right: 2%;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 500px){
+    .covered{
+        position: relative;
+       width: 60%;
+        margin-top: 20%;
+       border-style: solid;
+       border-color: #d7b980;
+       left: 10%;
+       
+      
+     }
+
+    
+     .mixtape p{
+        font-family: pops;
+        margin: 5%;
+        
+        
+    }
+     
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1000px){
+
+    .covered{
+        position: relative;
+       width: 50%;
+        margin-top: 10%;
+       border-style: solid;
+       border-color: #d7b980;
+       margin-left: 15%;
+      
+     }
+
+.covered button{
+    width: 35%;
+    
+    height: auto;
+    max-height: fit-content;
+    
+
+    margin: 5%;
+   
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #8a8a8a;
+    background-color: #e1d199;
+    text-align: right;
+    font-family: pops;
+    line-height: 20%;
+    
+ }
+
+}
+
+
+
+/* Songs */
+
+
+@media only screen and (min-width: 200px){
+
+   
+
+    #holding{
+       position: relative;
+        background-color: #e1d199;
+         width: 100%;
+        
+         z-index: 1;
+   padding-top: 1%;
+   text-align: center;
+         
+    }
+
+    #scrolling-el{
+        background-color: #e1d199;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+        box-shadow: 3px 3px 3px #8a8a8a;
+      text-align: center;
+      
+    }
+
+    #scrolling-el p{
+        position: relative;
+        text-align: center;
+       
+    }
+
+    #scrolling-el ion-icon{
+        position: absolute;
+        left: 0;
+       top: 30%;
+       margin-left: 3%;
+        text-align: center;
+        color: white;
+        font-size: 0.6cm;
+       z-index: 2;
+       
+    }
+
+   
+
+   
+
+    #holding img{
+        position: relative;
+        display: inline;
+        width: 30%;
+        margin: auto;
+        margin: 3%;
+        border-style: solid;
+       border-color: white;
+       box-shadow: 3px 3px 3px #8a8a8a;
+        
+    }
+
+   
+#hola{
+    font-family: pops;
+    color: white;
+   
+   
+}
+
+
+   
+
+    #holding p{
+        position: absolute;
+        display: inline;
+        font-family: pops;
+        color: white;
+        margin: auto;
+        left: 40%;
+      top: 50%;
+      font-size: 5vw;
+    text-align: justify;
+            
+    }
+
+
+
+  
+
+    .arrow{
+        position: relative;
+        font-size: 0.7cm;
+        margin: 3%;
+       color: white;
+       margin-bottom: 0;
+      
+     }
+
+    
+    
+
+    .song{
+       position: relative;
+        font-family: pops;
+        margin: 3%;
+       
+       
+       
+       
+      
+    }
+
+
+
+    @media only screen and (min-width: 1000px){
+
+
+        #holding img{
+            width: 20%;
+           
+            
+        }
+
+        #holding p{
+
+            left: 30%;
+            top: 40%;
+
+        }
+
+
+    }
+
+    
+
+    
+
+}
+
+
+
+
+
+
+    
+
